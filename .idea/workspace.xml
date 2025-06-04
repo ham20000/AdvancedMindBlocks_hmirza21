@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="amb tokenizer creation">
+    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="creation of AMBTokenPKG">
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/CODE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/DO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/ELSE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/END_IF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/END_PROGRAM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/END_STUB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/END_WHILE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/GOSUB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/IF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/INPUT_INT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/INPUT_STRING.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/INT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/PRINT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/START_SUB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/STRING.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/THEN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/WHILE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokenizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KeyWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/KeyWords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/START_PROGRAM.py" beforeDir="false" afterPath="$PROJECT_DIR$/START_PROGRAM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +46,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2w238tkJMIEEjl7aCn8xOliCFKD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,6 +65,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AMBTokensPKG" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -110,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745226100162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creation of AMBTokenPKG">
+      <option name="closed" value="true" />
+      <created>1749070891780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749070891780</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +153,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="file refactoring" />
     <MESSAGE value="amb tokenizer creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="amb tokenizer creation" />
+    <MESSAGE value="creation of AMBTokenPKG" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation of AMBTokenPKG" />
   </component>
 </project>
