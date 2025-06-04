@@ -1,6 +1,6 @@
 from contextlib import nullcontext
 
-import START_PROGRAM
+from AMBTokensPKG import START_PROGRAM
 
 
 def tokenize(fileName):
@@ -18,7 +18,5 @@ def tokenize(fileName):
         # Will check token string and change tok to its corresponding token class
         if(token == "START_PROGRAM"):
             tok = START_PROGRAM.START_PROGRAM()
-
-
 
     return tokens
