@@ -4,24 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="creation of AMBTokenPKG">
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/CODE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/DO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/ELSE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/END_IF.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/END_PROGRAM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/END_STUB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/END_WHILE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/GOSUB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/IF.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/INPUT_INT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/INPUT_STRING.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/INT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/PRINT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/START_SUB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/STRING.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/THEN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/WHILE.py" afterDir="false" />
+    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="creation of all keyword sub classes">
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/AddOp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/Assignment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/Colon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/CompOp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/HardClose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/HardOpen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/MultOp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/Semi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/SoftClose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/SoftOpen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMBTokensPKG/Symbols.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +54,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/hamza/school/2024-2025/Programming Languages/AdvancedMindBlocks_hmirza21&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -135,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749070891780</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="creation of all keyword sub classes">
+      <option name="closed" value="true" />
+      <created>1749072033147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749072033147</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +156,7 @@
     <MESSAGE value="file refactoring" />
     <MESSAGE value="amb tokenizer creation" />
     <MESSAGE value="creation of AMBTokenPKG" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation of AMBTokenPKG" />
+    <MESSAGE value="creation of all keyword sub classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation of all keyword sub classes" />
   </component>
 </project>
