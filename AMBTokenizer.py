@@ -100,7 +100,13 @@ def tokenize(fileName):
             ## label
             ## or failure (32ab, 3*2 would also fail since not proper spacing)
             ## a failure would set tok to be None
-            print('hi')
+            for char in token:
+                if (char.isdigit()):
+                    if (int(char) == 0):
+                        print('hi')
+                elif (char == '-'):
+                    print('start of negative')
+
 
         if (tok == None):
             raise SystemError('Tokenizing error. Bad token' + token)
