@@ -100,12 +100,21 @@ def tokenize(fileName):
             ## label
             ## or failure (32ab, 3*2 would also fail since not proper spacing)
             ## a failure would set tok to be None
+
+            ## checking if token is number
+            detectNegative = False  ## used to make sure the string only has no more than one '-' denoting a negative number
+            detectNonNum = False  ## turns to true if a non number is detected
             for char in token:
-                if (char.isdigit()):
-                    if (int(char) == 0):
-                        print('hi')
+                if (not char.isdigit()):
+                    detectNonNum = True
                 elif (char == '-'):
-                    print('start of negative')
+                    if (not detectNegative):
+                        detectNegative = True
+                    else:
+                        detectNonNum = True
+
+            if(not detectNonNum):
+                tok = Number.Number()
 
 
         if (tok == None):
