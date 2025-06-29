@@ -103,7 +103,8 @@ def tokenize(fileName):
 
             ## checking if token is a CharacterString
 
-
+            if(isTokenCharacterString(token)):
+                tok = AMBTokensPKG.CharacterString.CharacterString()
 
 
         if (tok == None):

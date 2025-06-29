@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="creation of isTokenNumber method and test for this method. contains same logic, just neater.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="creation of isTokenCharacterString method and test for this method.">
       <change beforePath="$PROJECT_DIR$/AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokenizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_AMBTokenizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750181900781</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="creation of isTokenCharacterString method and test for this method.">
+      <option name="closed" value="true" />
+      <created>1751188378556</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1751188378556</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +293,7 @@
     <MESSAGE value="creation of Collections and all subclasses associated with it" />
     <MESSAGE value="wrote logic to detect whether or not token is a number in AMBTokenizer.py" />
     <MESSAGE value="creation of isTokenNumber method and test for this method. contains same logic, just neater." />
-    <option name="LAST_COMMIT_MESSAGE" value="creation of isTokenNumber method and test for this method. contains same logic, just neater." />
+    <MESSAGE value="creation of isTokenCharacterString method and test for this method." />
+    <option name="LAST_COMMIT_MESSAGE" value="creation of isTokenCharacterString method and test for this method." />
   </component>
 </project>
