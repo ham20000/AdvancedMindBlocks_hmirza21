@@ -117,10 +117,33 @@ def isTokenNumber(token):
     for index, char in enumerate(token):
         # check if this char is not a digit
         if (not char.isdigit()):
-            # if char is a digit, we need take into account that it might be a '-', denoting a negative number
+            # if char is not a digit, we need take into account that it might be a '-', denoting a negative number
             if (char == '-'):
                 if(index > 0):
                     detectNonNum = True
             else:
                 detectNonNum = True
     return not detectNonNum
+
+# checks if token is a character string,
+# must start with a quote and end with a quote, no quotes within quotes
+def isTokenCharacterString(token):
+    detectError = False # becomes true if char within token goes against the rules of a character string
+
+    # needs to have 2 quotes, if string is 1 char long, then it cannot have 2 quotes
+    if(len(token) < 2):
+        detectError == True
+
+    for index, char in enumerate(token):
+        if(index == 0):
+            if(not char == '"'):
+                detectError = True
+        elif(index == len(token) - 1):
+            if(not char == '"'):
+                detectError = True
+        else:
+            if(char == '"'):
+                detectError = True
+
+    return not detectError
+

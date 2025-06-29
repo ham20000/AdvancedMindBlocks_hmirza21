@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="wrote logic to detect whether or not token is a number in AMBTokenizer.py">
-      <change afterPath="$PROJECT_DIR$/test_AMBTokenizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AdvancedMindBlocks_hmirza21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AdvancedMindBlocks_hmirza21.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="creation of isTokenNumber method and test for this method. contains same logic, just neater.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokenizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/END_STUB.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/END_SUB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_AMBTokenizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_AMBTokenizer.test_is_token_character_string.executor": "Run",
     "Python tests.Python tests for test_AMBTokenizer.test_is_token_number.executor": "Run",
     "Python.AMBTokenizer.executor": "Run",
     "Python.Starter.executor": "Run",
@@ -60,7 +58,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_AMBTokenizer.test_is_token_number">
+  <component name="RunManager" selected="Python tests.Python tests for test_AMBTokenizer.test_is_token_character_string">
     <configuration name="AMBTokenizer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AdvancedMindBlocks_hmirza21" />
       <option name="ENV_FILES" value="" />
@@ -130,6 +128,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_AMBTokenizer.test_is_token_character_string" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedMindBlocks_hmirza21" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_AMBTokenizer.test_is_token_character_string&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_AMBTokenizer.test_is_token_number" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AdvancedMindBlocks_hmirza21" />
       <option name="ENV_FILES" value="" />
@@ -149,10 +162,12 @@
       <item itemvalue="Python.Starter" />
       <item itemvalue="Python.AMBTokenizer" />
       <item itemvalue="Python.test_AMBTokenizer" />
+      <item itemvalue="Python tests.Python tests for test_AMBTokenizer.test_is_token_character_string" />
       <item itemvalue="Python tests.Python tests for test_AMBTokenizer.test_is_token_number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_AMBTokenizer.test_is_token_character_string" />
         <item itemvalue="Python tests.Python tests for test_AMBTokenizer.test_is_token_number" />
         <item itemvalue="Python.test_AMBTokenizer" />
       </list>
@@ -239,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750163824501</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="creation of isTokenNumber method and test for this method. contains same logic, just neater.">
+      <option name="closed" value="true" />
+      <created>1750181900781</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750181900781</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +286,7 @@
     <MESSAGE value="long if else statement written" />
     <MESSAGE value="creation of Collections and all subclasses associated with it" />
     <MESSAGE value="wrote logic to detect whether or not token is a number in AMBTokenizer.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrote logic to detect whether or not token is a number in AMBTokenizer.py" />
+    <MESSAGE value="creation of isTokenNumber method and test for this method. contains same logic, just neater." />
+    <option name="LAST_COMMIT_MESSAGE" value="creation of isTokenNumber method and test for this method. contains same logic, just neater." />
   </component>
 </project>
