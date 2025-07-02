@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="creation of isTokenCharacterString method and test for this method.">
+    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="added character string method call to tokenizer method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokenizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_AMBTokenizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_AMBTokenizer.test_is_token_character_string.executor": "Run",
-    "Python tests.Python tests for test_AMBTokenizer.test_is_token_number.executor": "Run",
-    "Python.AMBTokenizer.executor": "Run",
-    "Python.Starter.executor": "Run",
-    "Python.test_AMBTokenizer.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/hamza/school/2024-2025/Programming Languages/AdvancedMindBlocks_hmirza21/AMBTokenizer.py",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_AMBTokenizer.test_is_token_character_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_AMBTokenizer.test_is_token_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AMBTokenizer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Starter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_AMBTokenizer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hamza/school/2024-2025/Programming Languages/AdvancedMindBlocks_hmirza21/AMBTokenizer.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/AMBTokensPKG" />
@@ -268,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751188378556</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added character string method call to tokenizer method">
+      <option name="closed" value="true" />
+      <created>1751188526030</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1751188526030</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +304,7 @@
     <MESSAGE value="wrote logic to detect whether or not token is a number in AMBTokenizer.py" />
     <MESSAGE value="creation of isTokenNumber method and test for this method. contains same logic, just neater." />
     <MESSAGE value="creation of isTokenCharacterString method and test for this method." />
-    <option name="LAST_COMMIT_MESSAGE" value="creation of isTokenCharacterString method and test for this method." />
+    <MESSAGE value="added character string method call to tokenizer method" />
+    <option name="LAST_COMMIT_MESSAGE" value="added character string method call to tokenizer method" />
   </component>
 </project>

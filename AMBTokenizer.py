@@ -148,3 +148,17 @@ def isTokenCharacterString(token):
 
     return not detectError
 
+# checks if token is a label for a variable
+# must start with alpha, rest of label may only be either digits or alphas
+def isTokenLabel(token):
+    detectError = False
+
+    if(not token[0].isalpha()):
+        detectError = True
+
+    for index, char in enumerate(token):
+        if(not char.isdigit() and not char.isalpha()):
+            detectError = True
+
+    return not detectError
+
