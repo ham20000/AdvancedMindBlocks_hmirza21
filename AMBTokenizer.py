@@ -106,6 +106,11 @@ def tokenize(fileName):
             if(isTokenCharacterString(token)):
                 tok = AMBTokensPKG.CharacterString.CharacterString()
 
+            ## checking if token is Label
+
+            if(isTokenLabel(token)):
+                tok = AMBTokensPKG.Label.Label()
+
 
         if (tok == None):
             raise SystemError('Tokenizing error. Bad token' + token)

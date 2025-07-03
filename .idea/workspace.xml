@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="added character string method call to tokenizer method">
+    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="added and tested isTokenLabel method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokenizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_AMBTokenizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751188526030</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added and tested isTokenLabel method">
+      <option name="closed" value="true" />
+      <created>1751466523130</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1751466523130</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,6 +312,7 @@
     <MESSAGE value="creation of isTokenNumber method and test for this method. contains same logic, just neater." />
     <MESSAGE value="creation of isTokenCharacterString method and test for this method." />
     <MESSAGE value="added character string method call to tokenizer method" />
-    <option name="LAST_COMMIT_MESSAGE" value="added character string method call to tokenizer method" />
+    <MESSAGE value="added and tested isTokenLabel method" />
+    <option name="LAST_COMMIT_MESSAGE" value="added and tested isTokenLabel method" />
   </component>
 </project>
