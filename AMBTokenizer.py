@@ -1,7 +1,7 @@
 from contextlib import nullcontext
-
+import shlex
 import AMBTokensPKG
-
+from AMBTokensPKG import *
 
 def tokenize(fileName):
     tokens = []
@@ -12,60 +12,62 @@ def tokenize(fileName):
     #Turn string into array of strings split on spaces
     exampleDataTokens = exampleData.split()
 
-    for token in exampleDataTokens:
+    dataTokens = shlex.split(fileName, posix=False)
+
+    for token in dataTokens:
         tok = None
 
         # Will check token string and change tok to its corresponding token class
         if(token == "START_PROGRAM"):
-            tok = AMBTokensPKG.START_PROGRAM.START_PROGRAM()
+            tok = AMBTokensPKG.START_PROGRAM.START_PROGRAM(children= [])
         elif(token == "END_PROGRAM"):
-            tok = AMBTokensPKG.END_PROGRAM.END_PROGRAM()
+            tok = AMBTokensPKG.END_PROGRAM.END_PROGRAM(children= [])
         elif (token == "START_SUB"):
-            tok = AMBTokensPKG.START_SUB.START_SUB()
+            tok = AMBTokensPKG.START_SUB.START_SUB(children= [])
         elif (token == "END_SUB"):
-            tok = AMBTokensPKG.END_SUB.END_SUB()
+            tok = AMBTokensPKG.END_SUB.END_SUB(children= [])
         elif (token == "GOSUB"):
-            tok = AMBTokensPKG.GOSUB.GOSUB()
+            tok = AMBTokensPKG.GOSUB.GOSUB(children= [])
         elif (token == "CODE"):
-            tok = AMBTokensPKG.CODE.CODE()
+            tok = AMBTokensPKG.CODE.CODE(children= [])
         elif (token == "IF"):
-            tok = AMBTokensPKG.IF.IF()
+            tok = AMBTokensPKG.IF.IF(children= [])
         elif (token == "THEN"):
-            tok = AMBTokensPKG.THEN.THEN()
+            tok = AMBTokensPKG.THEN.THEN(children= [])
         elif (token == "ELSE"):
-            tok = AMBTokensPKG.ELSE.ELSE()
+            tok = AMBTokensPKG.ELSE.ELSE(children= [])
         elif (token == "END_IF"):
-            tok = AMBTokensPKG.END_IF.END_IF()
+            tok = AMBTokensPKG.END_IF.END_IF(children= [])
         elif (token == "WHILE"):
-            tok = AMBTokensPKG.WHILE.WHILE()
+            tok = AMBTokensPKG.WHILE.WHILE(children= [])
         elif (token == "DO"):
-            tok = AMBTokensPKG.DO.DO()
+            tok = AMBTokensPKG.DO.DO(children= [])
         elif (token == "END_WHILE"):
-            tok = AMBTokensPKG.END_WHILE.END_WHILE()
+            tok = AMBTokensPKG.END_WHILE.END_WHILE(children= [])
         elif (token == "INT"):
-            tok = AMBTokensPKG.INT.INT()
+            tok = AMBTokensPKG.INT.INT(children= [])
         elif (token == "STRING"):
-            tok = AMBTokensPKG.STRING.STRING()
+            tok = AMBTokensPKG.STRING.STRING(children= [])
         elif (token == "PRINT"):
-            tok = AMBTokensPKG.PRINT.PRINT()
+            tok = AMBTokensPKG.PRINT.PRINT(children= [])
         elif (token == "INPUT_INT"):
-            tok = AMBTokensPKG.INPUT_INT.INPUT_INT()
+            tok = AMBTokensPKG.INPUT_INT.INPUT_INT(children= [])
         elif (token == "INPUT_STRING"):
-            tok = AMBTokensPKG.INPUT_STRING.INPUT_STRING()
+            tok = AMBTokensPKG.INPUT_STRING.INPUT_STRING(children= [])
         elif (token == "("):
-            tok = AMBTokensPKG.SoftOpen.SoftOpen()
+            tok = AMBTokensPKG.SoftOpen.SoftOpen(children= [])
         elif (token == ")"):
-            tok = AMBTokensPKG.SoftClose.SoftClose()
+            tok = AMBTokensPKG.SoftClose.SoftClose(children= [])
         elif (token == "["):
-            tok = AMBTokensPKG.HardOpen.HardOpen()
+            tok = AMBTokensPKG.HardOpen.HardOpen(children= [])
         elif (token == "]"):
-            tok = AMBTokensPKG.HardClose.HardClose()
+            tok = AMBTokensPKG.HardClose.HardClose(children= [])
         elif (token == ";"):
-            tok = AMBTokensPKG.Semi.Semi()
+            tok = AMBTokensPKG.Semi.Semi(children= [])
         elif (token == ":="):
-            tok = AMBTokensPKG.Assignment.Assignment()
+            tok = AMBTokensPKG.Assignment.Assignment(children= [])
         elif (token == ":"):
-            tok = AMBTokensPKG.Colon.Colon()
+            tok = AMBTokensPKG.Colon.Colon(children= [])
         elif (token == "*"):
             tok = AMBTokensPKG.MultOp.MultOp(AMBTokensPKG.MultOp.Operand.MULT)
         elif (token == "/"):
@@ -89,7 +91,7 @@ def tokenize(fileName):
         else:
             ## Begin DFA Implementation of the SYMBOL COLLECTIONS
             ## go character by character in token (the current string token)
-            ## determine its going to be a:
+            ## determine it's going to be a:
             ## number
             ## characterString
             ## label
@@ -99,21 +101,21 @@ def tokenize(fileName):
             ## checking if token is number
 
             if(isTokenNumber(token)):
-                tok = AMBTokensPKG.Number.Number()
+                tok = AMBTokensPKG.Number.Number(children= [])
 
             ## checking if token is a CharacterString
 
             if(isTokenCharacterString(token)):
-                tok = AMBTokensPKG.CharacterString.CharacterString()
+                tok = AMBTokensPKG.CharacterString.CharacterString(children= [])
 
             ## checking if token is Label
 
             if(isTokenLabel(token)):
-                tok = AMBTokensPKG.Label.Label()
+                tok = AMBTokensPKG.Label.Label(children= [])
 
 
         if (tok == None):
-            raise SystemError('Tokenizing error. Bad token' + token)
+            raise SystemError('Tokenizing error. Bad token: ' + token)
         tokens.append(tok)
     return tokens
 

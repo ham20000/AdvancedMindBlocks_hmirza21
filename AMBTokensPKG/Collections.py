@@ -1,4 +1,4 @@
-import AMBTokensPKG
+from AMBTokensPKG import AMBTokens
 
-class Collections(AMBTokensPKG.AMBTokens):
+class Collections(AMBTokens.AMBTokens):
     pass

@@ -1,4 +1,4 @@
-import KeyWords
+from AMBTokensPKG import KeyWords
 
 class START_SUB(KeyWords.KeyWords):
     pass

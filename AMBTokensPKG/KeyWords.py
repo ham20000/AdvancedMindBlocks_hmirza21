@@ -1,4 +1,4 @@
-import AMBTokensPKG
+from AMBTokensPKG import AMBTokens
 
-class KeyWords(AMBTokensPKG.AMBTokens):
+class KeyWords(AMBTokens.AMBTokens):
     pass

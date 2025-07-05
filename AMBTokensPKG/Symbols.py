@@ -1,4 +1,4 @@
-import AMBTokensPKG
+from AMBTokensPKG import AMBTokens
 
-class Symbols(AMBTokensPKG.AMBTokens):
+class Symbols(AMBTokens.AMBTokens):
     pass

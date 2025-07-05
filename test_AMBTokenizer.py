@@ -20,3 +20,8 @@ def test_is_token_label():
     assert AMBTokenizer.isTokenLabel('hello')
     assert AMBTokenizer.isTokenLabel('hello123')
     assert not AMBTokenizer.isTokenLabel('hello#$%$')
+
+def test_tokenizer():
+    data = open('AMB_Sample.txt', 'r')
+    # print(data.read())
+    tokens = AMBTokenizer.tokenize(data.read())

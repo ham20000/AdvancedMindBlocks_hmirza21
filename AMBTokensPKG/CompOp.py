@@ -1,4 +1,4 @@
-import Symbols
+from AMBTokensPKG import Symbols
 from enum import Enum
 
 class CompOp(Symbols.Symbols):

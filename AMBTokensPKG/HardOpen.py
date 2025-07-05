@@ -1,4 +1,4 @@
-import Symbols
+from AMBTokensPKG import Symbols
 
 class HardOpen(Symbols.Symbols):
     pass

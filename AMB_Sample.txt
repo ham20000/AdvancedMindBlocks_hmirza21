@@ -14,7 +14,7 @@ PRINT ( "Enter a number" ) ;
 x := INPUT_INT ;
 res := ( 20 + 3 ) * x + 10 ;
 PRINT ( res ) ;
-END_SUB.
+END_SUB
 
 START_SUB main :
 GOSUB add ;
@@ -47,7 +47,7 @@ WHILE count < 3 DO
 	PRINT ( list [ count ] ) ;
 	count := count + 1 ;
 END_WHILE
-END_SUB.
-END_PROGRAM.
+END_SUB
+END_PROGRAM
 
 
