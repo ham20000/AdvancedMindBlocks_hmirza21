@@ -8,7 +8,6 @@ def program() -> AMBNodes:
     code = PTG.AMBParseTreeGenerator.code
     currentToken = PTG.AMBParseTreeGenerator.currentToken
     cur: AMBTokens = code[currentToken]
-    print(type(cur).__name__)
     if(type(cur).__name__ == START_PROGRAM.__name__):
         node: AMBNodes = AMBNodes.AMBNodes(children = [])
         node.addChild(cur)

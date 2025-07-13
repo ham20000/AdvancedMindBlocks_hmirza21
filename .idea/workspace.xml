@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="tested tokenizer and fixed various import issues">
-      <change afterPath="$PROJECT_DIR$/test_AMBParseTreeGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBPTNodes/AMBNodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBPTNodes/AMBNodes.py" afterDir="false" />
+    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="creation of pyfiles for AMBPTNodes, Creation of Program class and subsequent program function">
       <change beforePath="$PROJECT_DIR$/AMBPTNodes/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBPTNodes/Program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBParseTreeGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBParseTreeGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokenizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751725700286</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="creation of pyfiles for AMBPTNodes, Creation of Program class and subsequent program function">
+      <option name="closed" value="true" />
+      <created>1752383438359</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1752383438359</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,6 +374,7 @@
     <MESSAGE value="added and tested isTokenLabel method" />
     <MESSAGE value="added AMB sample code" />
     <MESSAGE value="tested tokenizer and fixed various import issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="tested tokenizer and fixed various import issues" />
+    <MESSAGE value="creation of pyfiles for AMBPTNodes, Creation of Program class and subsequent program function" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation of pyfiles for AMBPTNodes, Creation of Program class and subsequent program function" />
   </component>
 </project>
