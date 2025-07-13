@@ -3,7 +3,7 @@ import shlex
 import AMBTokensPKG
 from AMBTokensPKG import *
 
-def tokenize(fileName):
+def tokenize(fileName: str) -> list[AMBTokens]:
     tokens = []
     #Read file
     #Turn file into giant String
@@ -120,7 +120,7 @@ def tokenize(fileName):
     return tokens
 
 # takes in string Token and checks if it is a number
-def isTokenNumber(token):
+def isTokenNumber(token: str) -> bool:
     detectNonNum = False  ## turns to true if a non number is detected
     for index, char in enumerate(token):
         # check if this char is not a digit
@@ -135,7 +135,7 @@ def isTokenNumber(token):
 
 # checks if token is a character string,
 # must start with a quote and end with a quote, no quotes within quotes
-def isTokenCharacterString(token):
+def isTokenCharacterString(token: str) -> bool:
     detectError = False # becomes true if char within token goes against the rules of a character string
 
     # needs to have 2 quotes, if string is 1 char long, then it cannot have 2 quotes
@@ -157,7 +157,7 @@ def isTokenCharacterString(token):
 
 # checks if token is a label for a variable
 # must start with alpha, rest of label may only be either digits or alphas
-def isTokenLabel(token):
+def isTokenLabel(token: str) -> bool:
     detectError = False
 
     if(not token[0].isalpha()):

@@ -4,46 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="added AMB sample code">
+    <list default="true" id="9a6a09ca-c15a-44e6-8e6c-e81974a54a9e" name="Changes" comment="tested tokenizer and fixed various import issues">
+      <change afterPath="$PROJECT_DIR$/test_AMBParseTreeGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AMBPTNodes/AMBNodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBPTNodes/AMBNodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AMBPTNodes/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBPTNodes/Program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AMBParseTreeGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBParseTreeGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokenizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/AddOp.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/AddOp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/Assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/Assignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/CODE.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/CODE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/CharacterString.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/CharacterString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/Collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/Collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/Colon.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/Colon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/CompOp.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/CompOp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/DO.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/DO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/ELSE.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/ELSE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/END_IF.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/END_IF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/END_PROGRAM.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/END_PROGRAM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/END_SUB.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/END_SUB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/END_WHILE.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/END_WHILE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/GOSUB.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/GOSUB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/HardClose.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/HardClose.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/HardOpen.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/HardOpen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/IF.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/IF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/INPUT_INT.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/INPUT_INT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/INPUT_STRING.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/INPUT_STRING.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/INT.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/INT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/KeyWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/KeyWords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/Label.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/Label.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/MultOp.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/MultOp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/PRINT.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/PRINT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/START_PROGRAM.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/START_PROGRAM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/START_SUB.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/START_SUB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/STRING.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/STRING.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/Semi.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/Semi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/SoftClose.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/SoftClose.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/SoftOpen.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/SoftOpen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/Symbols.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/Symbols.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/THEN.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/THEN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/WHILE.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/WHILE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMBTokensPKG/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMBTokensPKG/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AMB_Sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AMB_Sample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_AMBTokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_AMBTokenizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_AMBParseTreeGenerator.test_generate_parse_tree.executor": "Run",
     "Python tests.Python tests for test_AMBTokenizer.test_is_token_character_string.executor": "Run",
     "Python tests.Python tests for test_AMBTokenizer.test_is_token_number.executor": "Run",
     "Python tests.Python tests for test_AMBTokenizer.test_tokenizer.executor": "Run",
@@ -95,7 +63,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_AMBTokenizer.test_tokenizer">
+  <component name="RunManager" selected="Python tests.Python tests for test_AMBParseTreeGenerator.test_generate_parse_tree">
     <configuration name="AMBTokenizer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AdvancedMindBlocks_hmirza21" />
       <option name="ENV_FILES" value="" />
@@ -165,6 +133,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_AMBParseTreeGenerator.test_generate_parse_tree" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AdvancedMindBlocks_hmirza21" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_AMBParseTreeGenerator.test_generate_parse_tree&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_AMBTokenizer.test_is_token_character_string" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AdvancedMindBlocks_hmirza21" />
       <option name="ENV_FILES" value="" />
@@ -214,12 +197,14 @@
       <item itemvalue="Python.Starter" />
       <item itemvalue="Python.AMBTokenizer" />
       <item itemvalue="Python.test_AMBTokenizer" />
+      <item itemvalue="Python tests.Python tests for test_AMBParseTreeGenerator.test_generate_parse_tree" />
       <item itemvalue="Python tests.Python tests for test_AMBTokenizer.test_tokenizer" />
       <item itemvalue="Python tests.Python tests for test_AMBTokenizer.test_is_token_character_string" />
       <item itemvalue="Python tests.Python tests for test_AMBTokenizer.test_is_token_number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_AMBParseTreeGenerator.test_generate_parse_tree" />
         <item itemvalue="Python tests.Python tests for test_AMBTokenizer.test_tokenizer" />
         <item itemvalue="Python tests.Python tests for test_AMBTokenizer.test_is_token_character_string" />
         <item itemvalue="Python tests.Python tests for test_AMBTokenizer.test_is_token_number" />
@@ -348,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751722456392</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="tested tokenizer and fixed various import issues">
+      <option name="closed" value="true" />
+      <created>1751725700286</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1751725700286</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,6 +370,7 @@
     <MESSAGE value="added character string method call to tokenizer method" />
     <MESSAGE value="added and tested isTokenLabel method" />
     <MESSAGE value="added AMB sample code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added AMB sample code" />
+    <MESSAGE value="tested tokenizer and fixed various import issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="tested tokenizer and fixed various import issues" />
   </component>
 </project>
